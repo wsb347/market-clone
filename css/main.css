@@ -57,3 +57,9 @@ main {
   font-weight: 500;
   box-shadow: gray 0.5px 0.5px 0.5px;
 }
+
+.write-btn:hover {
+  border: 1px solid#fe6f06;
+  color: #fe6f06;
+  background-color: white;
+}
