@@ -38,6 +38,6 @@ footer {
 }
 
 .footer-icons:hover > img {
-  animation: 0.2s icons-dong reverse;
+  animation: 0.3s icons-dong reverse;
   animation-iteration-count: 2;
 }
