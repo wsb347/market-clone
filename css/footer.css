@@ -27,3 +27,17 @@ footer {
 .footer-icons img {
   width: 30px;
 }
+
+@keyframes icons-dong {
+  from {
+    transform: translateY(-5px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+.footer-icons:hover > img {
+  animation: 0.2s icons-dong reverse;
+  animation-iteration-count: 2;
+}
